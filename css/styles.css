@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+#logotipo {
+  display: block;
+  width: 489px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 10px;
+}
+
+#divhome {
+  text-align: center;
+  margin-top: 20px
+}
+
+input {
+  font-size: 20px;
+  padding: 10px;
+  margin: 4px;
+  border: 1px solid #000000;  
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  margin: 4px;
+  border: 1px solid #000000;
+  background: rgb(165, 163, 163);
+  
+}
+
+#resultdiv {
+  text-align: center;
+  margin-top: 20px
+}
