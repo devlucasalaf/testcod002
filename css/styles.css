@@ -35,5 +35,8 @@ button {
 
 #resultdiv {
   text-align: center;
-  margin-top: 20px
+  margin-top: 20px;
+  border: 1px solid #000000;
+  padding: 10px;
+  background: rgb(248, 223, 177)
 }

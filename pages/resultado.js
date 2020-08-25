@@ -3,10 +3,10 @@ import { useRouter } from 'next/router'
 
 const Resultado = () => {
   const router = useRouter()
-  console.log(router)
+  const { cotacao, quantidade } = router.query
   return (
     <div id='resultdiv'>
-      <p>{parseFloat(router.query.nome).toFixed(2)} na cotação de {parseFloat(router.query.valor).toFixed(2)} é igual a: {parseFloat(router.query.nome * router.query.valor).toFixed(2)}</p>
+      <p>{parseFloat(quantidade).toFixed(2)} dólares na cotação de {parseFloat(cotacao).toFixed(2)} é igual a: {parseFloat(quantidade * cotacao).toFixed(2)} reais.</p>
     </div>
   )
 }
